@@ -43,5 +43,11 @@ namespace WeatherAPI.Controllers
         {
              return "Cool";
         }
+
+        [HttpDelete("{id}")]
+        public ActionResult<string> Delete(int id)
+        {
+             return "Cool";
+        }
     }
 }
