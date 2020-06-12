@@ -37,5 +37,11 @@ namespace WeatherAPI.Controllers
         {
              return "Cool";
         }
+
+        [HttpPost("{id}")]
+        public ActionResult<string> PostWeather(int id)
+        {
+             return "Cool";
+        }
     }
 }
